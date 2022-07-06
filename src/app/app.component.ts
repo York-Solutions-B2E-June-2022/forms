@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'forms';
+  username!: string;
+  password!: string;
+
+  onFormSubmit() {
+    console.log('form submit')
+    // do something here
+  }
 }
